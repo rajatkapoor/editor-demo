@@ -13,7 +13,7 @@ const Editor = ({ onUpdate }: { onUpdate: (htmlContent: string) => void }) => {
   return (
     <EditorContent
       editor={editor}
-      className="h-full w-full border border-slate-600 rounded-md p-4"
+      className="h-full border border-slate-600 rounded-md p-4 prose"
     />
   );
 };
