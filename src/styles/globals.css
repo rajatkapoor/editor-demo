@@ -2,3 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
+.ProseMirror{outline:none; padding-bottom: 150px;} 
