@@ -12,6 +12,7 @@
     "@tiptap/pm": "^2.1.11",
     "@tiptap/react": "^2.1.11",
     "@tiptap/starter-kit": "^2.1.11",
+    "idb-keyval": "^6.2.1",
     "next": "latest",
     "pretty": "^2.0.0",
     "react": "latest",
