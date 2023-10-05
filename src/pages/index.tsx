@@ -1,6 +1,5 @@
 import { Editor, ContentDebugger } from "@/components/Editor";
 import { useState } from "react";
-import { Tweet } from "react-tweet";
 
 export default function Home() {
   const [content, setContent] = useState("");

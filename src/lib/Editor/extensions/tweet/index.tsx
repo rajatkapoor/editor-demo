@@ -30,12 +30,6 @@ export const TweetNode = Node.create({
     };
   },
 
-  addOptions() {
-    return {
-      HTMLAttributes: {},
-    };
-  },
-
   parseHTML() {
     return [
       {
@@ -49,10 +43,6 @@ export const TweetNode = Node.create({
       "tweet",
       mergeAttributes(this.options.HTMLAttributes, HTMLAttributes),
     ];
-  },
-
-  addCommands() {
-    return {};
   },
 
   //   /**

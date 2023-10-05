@@ -8,12 +8,13 @@ const contentKey = `EditorContent`;
 
 const Editor = ({ onUpdate }: { onUpdate: (htmlContent: string) => void }) => {
   const editor = useEditor({
-    extensions: [StarterKit, TweetNode],
     onUpdate: ({ editor }) => {
       const htmlContent = editor.getHTML();
       set(contentKey, htmlContent);
       onUpdate(htmlContent);
     },
+    // content: "<p>Hello React India 👋</p>",
+    extensions: [StarterKit, TweetNode],
   });
 
   useEffect(() => {
